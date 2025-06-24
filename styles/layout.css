@@ -24,6 +24,15 @@
 
 }
 
+.slidev-layout.section {
+	@apply h-hull grid;
+
+	h1 {
+		@apply text-5xl leading-20 border-0;
+		text-align: end;
+	}
+}
+
 .slidev-layout {
     h1 {
 	@apply border-0 border-l-8 border-solid border-pink-3 pl-2;
